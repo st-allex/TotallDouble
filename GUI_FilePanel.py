@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter.ttk import Scrollbar as ttk_Scrollbar, Treeview as ttk_Treeview
 
+
 class FileViewer(ttk_Treeview):
 
     heads = ['ind', 'parent_ind', 'file_name', 'type', 'size', 'date', 'attr']  # порядок полей как в загрузке будет

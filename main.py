@@ -10,6 +10,7 @@ fst = [
         (6, 2, 'folder1_file1', 'file', '1020', '21.12.2012', '-a--')
     ]
 
+
 root = tk.Tk()
 
 test = GUI_FilePanel.FileViewer(root)

@@ -16,7 +16,7 @@ class FileViewer(ttk_Treeview):
             self.heading(header, text=header, anchor='w')
             self.column(header) #, anchor='w')
 
-
+\
     def pack(self):
         viewer_y_scroll = ttk_Scrollbar(self.master, command=self.yview)
         self.configure(yscrollcommand=viewer_y_scroll.set)
